@@ -14,7 +14,7 @@
   <link rel="stylesheet" href="./assets/styles.css">
 
   <!-- Favicon -->
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
   
   <title>Sunnyside Agency</title>
 </head>
@@ -22,7 +22,6 @@
 <body>
 
   
-
   <section id="hero" class="navigation p-2">
     
     <nav class="navbar navbar-expand-md navbar-dark">
@@ -58,73 +57,131 @@
   </section>
 
 
-  <section id="transform">
-    <h2>Transform your brand</h2>
-    <p>We are a full-service creative agency specializing in helping brands grow fast. 
-      Engage your clients through compelling visuals that do most of the marketing for you.</p>
-      <a href="http://">Learn more</a>
+  <section id="transform" class="container">
+    <div class="row">
+      <div class="col-12 col-md-6 order-2 order-md-1">
+        <h2>Transform your brand</h2>
+        <p>We are a full-service creative agency specializing in helping brands grow fast. 
+          Engage your clients through compelling visuals that do most of the marketing for you.</p>
+          <a href="http://">Learn more</a>
+      </div>
+      <div class="col-12 col-md-6 order-1 order-md-2">
+        <img src="./assets/images/mobile/image-transform.jpg" alt="egg">
+      </div>
+    </div>
   </section>
 
-  <section id="egg">
-    <img src="" alt="egg">
-  </section>
-
-  <section id="stand-out">
-    <h2>Stand out to the right audience</h2>
-    <p>Using a collaborative formula of designers, researchers, photographers, videographers, and copywriters, we’ll build and extend your brand in digital places. </p>
-    <a href="http://">Learn more</a>
+  <section id="stand-out" class="container">
+    <div class="row">
+      <div class="col-12 col-md-6 order-2">
+        <h2>Stand out to the right audience</h2>
+        <p>Using a collaborative formula of designers, researchers, photographers, videographers, and copywriters, we’ll build and extend your brand in digital places. </p>
+        <a href="http://">Learn more</a>
+      </div>
+      <div class="col-12 col-md-6 order-1">
+        <img src="./assets/images/mobile/image-stand-out.jpg" alt="cup">
+      </div>  
   </section>
   
-  <section id="cup">
-    <img src="" alt="cup">
+
+  <section id="graphic-design" class="container">
+    <div class="row">
+      <div class="col-12 col-md-6">
+        <h2>Graphic Design</h2>
+        <p>Great design makes you memorable. We deliver artwork that underscores your brand message and captures potential clients’ attention.</p>
+      </div>
+    </div>
   </section>
 
-  <section id="graphic-design">
-    <h2>Graphic Design</h2>
-    <p>Great design makes you memorable. We deliver artwork that underscores your brand message and captures potential clients’ attention.</p>
-  </section>
-
-  <section id="photography">
-    <h2>Photography</h2>
-    <p>Increase your credibility by getting the most stunning, high-quality photos that improve your business image.</p>
+  <section id="photography" class="container">
+    <div class="row">
+      <div class="col-12 col-md-6">
+        <h2>Photography</h2>
+        <p>Increase your credibility by getting the most stunning, high-quality photos that improve your business image.</p>
+      </div>
+    </div>
   </section>
 
   
-  <section class="client-feedback">
-    <h2>Client Testimonials</h2>
-
-    <div class="feedback">
-      <p class="client-text">We put our trust in Sunnyside and they delivered, making sure our needs were met and deadlines were always hit.</p>
-      <p class="client-name">Emily R.</p>
-      <p class="client-role">Marketing Director</p>
-    </div>
-    <div class="feedback">
-      <p class="client-text">Sunnyside’s enthusiasm coupled with their keen interest in our brand’s success made it a satisfying and enjoyable experience.</p>
-      <p class="client-name">Thomas S.</p>
-      <p class="client-role">Chief Operating Officer</p>
-    </div>
-    <div class="feedback">
-      <p class="client-text">  Incredible end result! Our sales increased over 400% when we worked with Sunnyside. Highly recommended!</p>
-      <p class="client-name">Jennie F.</p>
-      <p class="client-role">Business Owner</p>
+  <section class="client-feedback" class="container">
+    <div class="row"> 
+      <h2>Client Testimonials</h2>
+      <div class="feedback col-12 col-md-4">
+        <img src="./assets/images/image-emily.jpg" alt="Emily R Marketing Director" class="client-photo">
+        <p class="client-text">We put our trust in Sunnyside and they delivered, making sure our needs were met and deadlines were always hit.</p>
+        <p class="client-name">Emily R.</p>
+        <p class="client-role">Marketing Director</p>
+      </div>
+      <div class="feedback col-12 col-md-4">
+        <img src="./assets/images/image-thomas.jpg" alt="Thomas S COO" class="client-photo">
+        <p class="client-text">Sunnyside’s enthusiasm coupled with their keen interest in our brand’s success made it a satisfying and enjoyable experience.</p>
+        <p class="client-name">Thomas S.</p>
+        <p class="client-role">Chief Operating Officer</p>
+      </div>
+      <div class="feedback col-12 col-md-4">
+        <img src="./assets/images/image-jennie.jpg" alt="Jennie F Business Owner" class="client-photo">
+        <p class="client-text">Incredible end result! Our sales increased over 400% when we worked with Sunnyside. Highly recommended!</p>
+        <p class="client-name">Jennie F.</p>
+        <p class="client-role">Business Owner</p>
+      </div>
     </div>
   </section>
 
 
-  <footer>
-    <nav>
-      <ul>
-        <li><a href="">About</a></li>
-        <li><a href="">Services</a></li>
-        <li><a href="">Projects</a></li>
-        <li><a href="">Contact</a></li>
+  <footer class="container-fluid">
+    
+    <!-- Footer Gallery Specific to Mobile View -->
+    <div class="row d-md-none" id="mobile-gallery">
+      <div class="col-6">
+        <img src="./assets/images/mobile/image-gallery-milkbottles.jpg" alt="Milk Bottles">
+      </div>
+      <div class="col-6">
+        <img src="./assets/images/mobile/image-gallery-orange.jpg" alt="Orange Slice on Plate">
+      </div>
+      <div class="col-6">
+        <img src="./assets/images/mobile/image-gallery-cone.jpg" alt="Empty Ice Cream Cone">
+      </div>
+      <div class="col-6">
+        <img src="./assets/images/mobile/image-gallery-sugar-cubes.jpg" alt="Stacked Sugar Cubes">
+      </div>
+    </div>
+
+    <!-- Footer Gallery Specific to Tablet/Desktop View -->
+    <div class="row d-none d-md-block" id="desktop-gallery">
+      <div class="col-md-3">
+        <img src="./assets/images/desktop/image-gallery-milkbottles.jpg" alt="Milk Bottles">
+      </div>
+      <div class="col-md-3">
+        <img src="./assets/images/desktop/image-gallery-orange.jpg" alt="Orange Slice on Plate">
+      </div>
+      <div class="col-md-3">
+        <img src="./assets/images/desktop/image-gallery-cone.jpg" alt="Empty Ice Cream Cone">
+      </div>
+      <div class="col-md-3">
+        <img src="./assets/images/desktop/image-gallery-sugarcubes.jpg" alt="Stacked Sugar Cubes">
+      </div>
+    </div>
+
+    <!-- Footer Social and Regular Links -->
+    <nav id="footer-nav">
+      <ul class="nav justify-content-center">
+        <li class="nav-item"><a href="" class="nav-link">About</a></li>
+        <li class="nav-item"><a href="" class="nav-link">Services</a></li>
+        <li class="nav-item"><a href="" class="nav-link">Projects</a></li>
+      </ul>
+      <ul class="nav justify-content-center" id="social-nav">
+        <li class="nav-item"><a href="" class="nav-link"><img src="./assets/images/icon-facebook.svg" alt="Facebook logo"></a></li>
+        <li class="nav-item"><a href="" class="nav-link"><img src="./assets/images/icon-instagram.svg" alt="Instagram logo"></a></li>
+        <li class="nav-item"><a href="" class="nav-link"><img src="./assets/images/icon-twitter.svg" alt="Twitter logo"></a></li>
+        <li class="nav-item"><a href="" class="nav-link"><img src="./assets/images/icon-pinterest.svg" alt="Pinterest logo"></a></li>
       </ul>
     </nav>
+
   </footer>
 
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
+    Coded by <a href="https://yearicks.dev">Ashley Yearicks</a>.
   </div>
 
 
