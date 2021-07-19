@@ -50,8 +50,60 @@ body {
     text-align: center;
 }
 
+.learn{
+    margin-bottom: 3rem;
+}
+
+.learn h2 {
+    margin-top: 3rem;
+    font-family: var(--fraunces);
+    font-size: 32px;
+    color: var(--veryDarkBlue);
+}
+
+.learn p {
+    font-family: var(--barlow);
+    font-size: 18px;
+    line-height: 2rem;
+    color: var(--grayBlue);
+    margin: 2rem 0;
+}
+
+.learn .learn-more {
+    text-decoration: none;
+    font-family: var(--fraunces);
+    font-size: 16px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: var(--veryDarkBlue);
+}
+
+.learn .learn-hr {
+    height: 10px;
+    width: 140px;
+    border-radius: 20px;
+    margin: -8px auto 0 auto;
+}
+
+.learn .yellow-learn {
+    background-color: var(--yellow);
+}
+
+.learn .red-learn {
+    background-color: var(--softRed);
+}
+
+.learn .image-learn{
+    max-width: 100%;
+}
 
 
+/* || Attribution */
 
-.attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
+.attribution {
+    font-size: 11px; text-align: center; 
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%); 
+}
