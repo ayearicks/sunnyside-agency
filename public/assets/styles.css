@@ -1,0 +1,57 @@
+/* || Global Variables */
+
+:root {
+    /* Primary Colors*/
+    --softRed: hsl(7, 99%, 70%);
+    --yellow: hsl(51, 100%, 49%);
+    --darkCyanText: hsl(167, 40%, 24%);
+    --darkBlueText: hsl(198, 62%, 26%);
+    --darkCyanFooter: hsl(168, 34%, 41%);
+    /* Neutral Colors*/
+    --veryDarkBlue: hsl(212, 27%, 19%);
+    --veryDarkGrayBlue: hsl(213, 9%, 39%);
+    --darkGrayBlue: hsl(232, 10%, 55%);
+    --grayBlue: hsl(210, 4%, 67%);
+    --white: hsl(0, 0%, 100%);
+    /* Google Fonts */
+    --barlow: 'Barlow', sans-serif; /* 600 weight */
+    --fraunces: 'Fraunces', serif; /* 700, 900 weight */
+}
+
+
+
+/* || Typography */
+
+body {
+    font-size: 18px;
+}
+
+
+/* || <576px Display  */
+
+#hero {
+    background-image: url(./images/mobile/image-header.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    min-height: 70vh;
+    font-family: var(--fraunces);
+}
+
+#hero nav button span.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e")
+}
+
+#hero h1 {
+    text-transform: uppercase;
+    color: white;
+    font-size: 40px;
+    letter-spacing: .5rem;
+    text-align: center;
+}
+
+
+
+
+.attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
