@@ -67,6 +67,7 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 
 I wanted to use this project as a refresher for my HTML and CSS knowledge. I also needed to practice specificity for my CSS and general speed at putting a front-end project together.
 
+
 One of the things I wasn't sure about was how to get the multi-colored bars under the 'Learn More' links. After a bit of tweaking, I decided to go with a horizontal rule element and style it appropriately. In an effort to follow the principles of D.R.Y., I tried to add all like styles to one class and ended up with only a color difference between the two elements.
 
 ```css
@@ -83,6 +84,23 @@ One of the things I wasn't sure about was how to get the multi-colored bars unde
 
 .learn .red-learn {
     background-color: var(--softRed);
+}
+```
+
+
+Another issue that really held me up was the small triangle flair on the mobile menu. After referencing [https://www.css-tricks.com](https://www.csstricks.com), I was able to draw a simple triangle using transparent values on a border. 
+
+It did open my eyes to trend towards simplifying my solutions, as I was going to attempt drawing one with path().
+
+
+```css
+#mobile-menu-flair {
+    position: absolute;
+    margin-top: 1.5rem;
+    margin-left: 78.5vw;
+    border-right: 25px solid var(--white);
+    border-bottom: 25px solid transparent;
+    border-top: 25px solid transparent;
 }
 ```
 
