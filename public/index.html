@@ -25,7 +25,7 @@
   
   <section id="hero" class="navigation p-2">
     
-    <nav class="navbar navbar-expand-md navbar-dark">
+    <nav class="navbar navbar-expand-lg navbar-dark">
       <div class="container">
         <a class="navbar-brand" href="#"><img src="./assets/images/logo.svg" alt="sunnyside"></a>
         <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#mobile-menu" aria-controls="mobile-menu" aria-expanded="false" aria-label="Toggle navigation">
@@ -33,7 +33,7 @@
         </button>
         <div class="collapse navbar-collapse" id="mobile-menu">
           <div id="mobile-menu-flair"></div>
-          <ul class="navbar-nav me-auto mb-2 mb-md-0">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
               <a class="nav-link" href="#">About</a>
             </li>
@@ -61,50 +61,46 @@
 
   <section id="transform" class="container-fluid learn">
     <div class="row">
-      <div class="col-12 col-md-6 order-2 order-md-1 text-center px-4">
+      <div class="col-12 col-md-6 order-2 order-md-1 text-center text-md-start px-4 py-md-5">
         <h2>Transform your brand</h2>
         <p>We are a full-service creative agency specializing in helping brands grow fast. 
           Engage your clients through compelling visuals that do most of the marketing for you.</p>
           <a href="http://" class="learn-more">Learn more</a>
           <hr class="learn-hr yellow-learn">
       </div>
-      <div class="col-12 col-md-6 order-1 order-md-2 p-0 text-sm-center">
-        <img src="./assets/images/mobile/image-transform.jpg" alt="egg" class="image-learn">
+      <div class="col-12 col-md-6 order-1 order-md-2 p-0 align-self-md-center">
+        <img src="./assets/images/mobile/image-transform.jpg" alt="egg" class="image-learn egg">
       </div>
     </div>
   </section>
 
-  <section id="stand-out" class="container learn">
+  <section id="stand-out" class="container-fluid learn">
     <div class="row">
-      <div class="col-12 col-md-6 order-2 text-center px-4">
+      <div class="col-12 col-md-6 order-2 text-center text-md-end px-4">
         <h2>Stand out to the right audience</h2>
         <p>Using a collaborative formula of designers, researchers, photographers, videographers, and copywriters, we’ll build and extend your brand in digital places. </p>
         <a href="http://" class="learn-more">Learn more</a>
         <hr class="learn-hr red-learn">
       </div>
-      <div class="col-12 col-md-6 order-1 p-0">
-        <img src="./assets/images/mobile/image-stand-out.jpg" alt="cup" class="image-learn">
+      <div class="col-12 col-md-6 order-1 p-0 align-self-md-center">
+        <img src="./assets/images/mobile/image-stand-out.jpg" alt="cup" class="image-learn cup">
       </div>  
   </section>
   
 
-  <section id="graphic-design" class="container design-photo">
+  <section id="design" class="container-fluid">
     <div class="row">
-      <div class="col-12 col-md-6 px-4 graphic">
-        <h2>Graphic Design</h2>
-        <p>Great design makes you memorable. We deliver artwork that underscores your brand message and captures potential clients’ attention.</p>
-      </div>
+        <div class="col-12 col-md-6 order-1 px-4 design-photo" id="graphic">
+          <h2>Graphic Design</h2>
+          <p>Great design makes you memorable. We deliver artwork that underscores your brand message and captures potential clients’ attention.</p>
+        </div> 
+        <div class="col-12 col-md-6 order-2 px-4 design-photo" id="photo">
+          <h2>Photography</h2>
+          <p>Increase your credibility by getting the most stunning, high-quality photos that improve your business image.</p>
+        </div>
     </div>
   </section>
-
-  <section id="photography" class="container design-photo">
-    <div class="row">
-      <div class="col-12 col-md-6 px-4 photo">
-        <h2>Photography</h2>
-        <p>Increase your credibility by getting the most stunning, high-quality photos that improve your business image.</p>
-      </div>
-    </div>
-  </section>
+  
 
   
   <section id="client-feedback" class="container text-center">
@@ -139,7 +135,7 @@
   <footer class="container-fluid">
     
     <!-- Footer Gallery Specific to Mobile View -->
-    <div id="mobile-gallery" class="d-md-none">
+    <div id="mobile-gallery" class="d-lg-none">
         <div class="row">
           <div class="col-6">
             <img src="./assets/images/mobile/image-gallery-milkbottles.jpg" alt="Milk Bottles">
@@ -161,17 +157,17 @@
     
 
     <!-- Footer Gallery Specific to Tablet/Desktop View -->
-    <div class="row d-none d-md-flex" id="desktop-gallery">
-      <div class="col-md-3">
+    <div class="row d-none d-lg-flex" id="desktop-gallery">
+      <div class="col-md-6">
         <img src="./assets/images/desktop/image-gallery-milkbottles.jpg" alt="Milk Bottles">
       </div>
-      <div class="col-md-3">
+      <div class="col-md-6">
         <img src="./assets/images/desktop/image-gallery-orange.jpg" alt="Orange Slice on Plate">
       </div>
-      <div class="col-md-3">
+      <div class="col-md-6">
         <img src="./assets/images/desktop/image-gallery-cone.jpg" alt="Empty Ice Cream Cone">
       </div>
-      <div class="col-md-3">
+      <div class="col-md-6">
         <img src="./assets/images/desktop/image-gallery-sugarcubes.jpg" alt="Stacked Sugar Cubes">
       </div>
     </div>
