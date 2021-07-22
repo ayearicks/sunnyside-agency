@@ -41,7 +41,7 @@ body {
 /* |> Hero */
 
 #hero {
-    background: url(./images/mobile/image-header.jpg) no-repeat center;
+    background: url(./images/image-header.jpg) no-repeat center;
     background-size: cover;
     min-height: 70vh;
     font-family: var(--fraunces);
@@ -152,12 +152,12 @@ body {
 /* |> Non-link Blocks */
 
 #graphic{
-    background-image: url(./images/mobile/image-graphic-design.jpg);
+    background-image: url(./images/image-graphic-design.jpg);
     color: var(--darkCyanText);
 }
 
 #photo {
-    background-image: url(./images/mobile/image-photography.jpg);
+    background-image: url(./images/image-photography.jpg);
     color: var(--darkBlueText);
 }
 
@@ -395,13 +395,6 @@ footer #footer-logo {
     #footer-nav #social-nav img {
         width: 2.5vw;
     }
-
-}
-
-/* || >= 1200px Display  */
-
-@media (min-width: 1200px) {
-  
 
 }
 
