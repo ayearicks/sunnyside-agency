@@ -90,14 +90,14 @@ One of the things I wasn't sure about was how to get the multi-colored bars unde
 
 Another issue that really held me up was the small triangle flair on the mobile menu. After referencing [https://www.css-tricks.com](https://www.csstricks.com), I was able to draw a simple triangle using transparent values on a border. 
 
-It did open my eyes to trend towards simplifying my solutions, as I was going to attempt drawing one with path().
+It did open my eyes to trend towards simplifying my solutions, as I was going to attempt using margin-left and margin-right, which would have introduced responsive errors on multiple viewports.
 
 
 ```css
 #mobile-menu-flair {
     position: absolute;
-    margin-top: 1.5rem;
-    margin-left: 78.5vw;
+    top: 100%;
+    right: 5%;
     border-right: 25px solid var(--white);
     border-bottom: 25px solid transparent;
     border-top: 25px solid transparent;
