@@ -28,17 +28,17 @@ Users should be able to:
 
 ### Screenshot
 
-![Mobile](public/assets/images/screenshots/sunnyside-mobile-screenshot.png)
-![Mobile Menu](public/assets/images/screenshots/sunnyside-mobile-menu-screenshot.png)
-![Desktop Hero Section](public/assets/images/screenshots/sunnyside-desktop-hero.png)
-![Desktop Client Section](public/assets/images/screenshots/sunnyside-desktop-client.png)
+![Mobile](assets/images/screenshots/sunnyside-mobile-screenshot.png)
+![Mobile Menu](assets/images/screenshots/sunnyside-mobile-menu-screenshot.png)
+![Desktop Hero Section](assets/images/screenshots/sunnyside-desktop-hero.png)
+![Desktop Client Section](assets/images/screenshots/sunnyside-desktop-client.png)
 
 
 
 ### Links
 
 - Solution URL: [Github Repo](https://github.com/ayearicks/sunnyside-agency-landing-page-main)
-- Live Site URL: [Live Site](https://yearicks.dev/sunnyside-agency/public/index.html)
+- Live Site URL: [Live Site](https://yearicks.dev/sunnyside-agency)
 
 
 
