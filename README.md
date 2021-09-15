@@ -38,7 +38,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Github Repo](https://github.com/ayearicks/sunnyside-agency-landing-page-main)
-- Live Site URL: [Live Site](https://yearicks.dev/sunnyside-agency-landing-page-main/public/index.html)
+- Live Site URL: [Live Site](https://yearicks.dev/sunnyside-agency/public/index.html)
 
 
 
